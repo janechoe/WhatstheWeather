@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">What\'s the Weather?</string>
+    <string name="ask_user">"Enter a city name"</string>
 </resources>

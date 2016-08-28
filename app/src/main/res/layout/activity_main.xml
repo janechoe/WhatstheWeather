@@ -29,27 +29,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter a city name"
+        android:text="@string/ask_user"
         android:id="@+id/prompt"
         android:layout_below="@+id/userCity"
         android:layout_centerHorizontal="true"
-        android:textSize="25sp"
-        android:textColor="#2c3e50" />
+        android:textSize="30sp"
+        android:textColor="#2c3e50"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What&apos;s the weather?"
+        android:text="@string/ask_user"
         android:id="@+id/submit"
         android:layout_below="@+id/prompt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:textColor="#2c3e50"
-        android:background="#ecf0f1"
-        android:onClick="submit" />
+        android:padding="10dp"
+        android:background="@color/white"
+        android:onClick="submit"
+        android:textAllCaps="false"/>
 
     <TextView
         android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:id="@+id/weather"
         android:textColor="#ecf0f1"
